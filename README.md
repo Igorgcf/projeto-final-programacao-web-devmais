@@ -1,5 +1,6 @@
 # Auth User Application
 ## Gerenciamento de Usuários com Integração Externa
+### Projeto final do módulo 04 programação web - programa Desenvolva+ em parceria da Ada Tech com o MELI.
 
 ### 📘 Descrição Geral
 
