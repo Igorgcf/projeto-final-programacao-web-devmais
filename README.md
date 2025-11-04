@@ -1,7 +1,7 @@
 # Auth User Application
 ## Gerenciamento de Usuários com Integração Externa
 
-📘 Descrição Geral
+### 📘 Descrição Geral
 
 O AuthUser é uma aplicação monolítica desenvolvida em Java com Spring Boot, projetada para o gerenciamento completo de usuários (CRUD) e integração com uma API externa (Dummy JSON).
 
@@ -9,10 +9,10 @@ A aplicação fornece endpoints RESTful documentados via Swagger (com autentica�
 
 O projeto foi desenvolvido com foco em boas práticas de arquitetura, camadas bem definidas e integração modular entre fontes de dados internas e externas.
 
-⚙️ Funcionalidades Principais
+### ⚙️ Funcionalidades Principais
 
 
-🔹 CRUD Completo — Banco de Dados Local (H2)
+### 🔹 CRUD Completo — Banco de Dados Local (H2)
 
 A aplicação expõe os seguintes endpoints principais para gerenciamento interno de usuários:
 
@@ -32,7 +32,7 @@ Método	Endpoint	Descrição:
 
 ```DELETE```	```/users/{id}```	Remove um usuário do sistema
 
-🔹 Integração com API Externa — Dummy JSON
+### 🔹 Integração com API Externa — Dummy JSON
 
 A aplicação também possui uma camada de serviço externo para comunicação com a API pública Dummy JSON.
 
@@ -50,7 +50,7 @@ Método	Endpoint Local	Ação Executada
 
 ```DELETE	``` ```/users/{id}```	Remove um usuário da Dummy JSON
 
-🧱 Arquitetura e Camadas
+### 🧱 Arquitetura e Camadas
 
 O projeto segue o padrão de arquitetura em camadas, promovendo desacoplamento e legibilidade do código:
 
@@ -124,7 +124,7 @@ src/main/java/authuser/
 
  │    ├── UserServiceDummyJsonImpl.java
 
- 🧩 Tecnologias Utilizadas
+ ### 🧩 Tecnologias Utilizadas
 
  | Categoria                | Tecnologias                       |
 | :----------------------- | :-------------------------------- |
@@ -137,12 +137,12 @@ src/main/java/authuser/
 | **Build Tool**           | Maven                             |
 | **IDE Recomendada**      | IntelliJ IDEA / Eclipse / VS Code |
 
-🔐 Autenticação — Basic Auth
+### 🔐 Autenticação — Basic Auth
 
 O Swagger e os endpoints REST são protegidos por autenticação básica (Basic Auth).
 Basta logar com um usuário e senha aleatório, pois não necessita de um usuário autenticado, está apenas simulando autenticação, para facilitar a avaliação/testes do instrutor do módulo atual.
 
-🧰 Banco de Dados H2
+### 🧰 Banco de Dados H2
 
 A aplicação utiliza o H2 Database (em memória) para persistência de dados local.
 
@@ -156,14 +156,14 @@ Usuário: sa
 
 Senha:
 
-📖 Documentação da API (Swagger)
+### 📖 Documentação da API (Swagger)
 
 Após executar o projeto, acesse o Swagger UI para visualizar e testar os endpoints:
 
 ```bash
 http://localhost:8080/swagger-ui.html
 ```
-🚀 Como Executar o Projeto
+### 🚀 Como Executar o Projeto
 
 Pré-requisitos:
 
@@ -191,7 +191,7 @@ A aplicação será iniciada em:
 http://localhost:8080
 ```
 
-🧪 Exemplos de Requisições
+### 🧪 Exemplos de Requisições
 
 🔹 Criar Usuário (POST)
 
@@ -211,9 +211,9 @@ http://localhost:8080
 
 🔹 Filtrar Usuário por Nome (GET)
 ```bash
-GET /users/name/{name}
+GET /users/name/{name}=Igor
 ```
-👨‍💻 Autor
+### 👨‍💻 Autor
 
 Igor Gonçalves de Freitas
 
