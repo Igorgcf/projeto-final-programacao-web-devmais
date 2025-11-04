@@ -192,6 +192,11 @@ A aplicação será iniciada em:
 http://localhost:8080
 ```
 
+Baixe este arquivo e importe-o para o Postman para usar as requisições/respostas de métodos HTTP prontas para uso:
+
+[Download collection](https://github.com/Igorgcf/projeto-final-programacao-web-devmais/blob/docs-postman/Authuser%20Ada%20Dev%2B.postman_collection.json)
+
+
 ### 🧪 Exemplos de Requisições
 
 🔹 Criar Usuário (POST)
