@@ -52,13 +52,11 @@ Método	Endpoint Local	Ação Executada
 
 O projeto segue o padrão de arquitetura em camadas, promovendo desacoplamento e legibilidade do código:
 
-src/
+src/main/java/authuser/
 
- ├── entities/
- 
- │    ├── User.java
- 
- │    ├── UserDummyJson.java
+ ├── config/
+
+ │    ├── SwaggerConfig.java
 
  ├── dtos/
  
@@ -68,12 +66,35 @@ src/
 
  │    ├── UserResponseDTODummy.java
  
+
+ ├── entities/
  
+ │    ├── User.java
+ 
+ │    ├── UserDummyJson.java
+
+
  ├── repositories/
  
  │    ├── UserRepository.java
  
  │    ├── DummyJsonClient.java 
+
+ ├── resources/exceptions/
+
+ │    ├── StandardError.java
+
+ │    ├── ResourceExceptionHandler.java
+
+ ├── resources/
+ 
+ │    ├── UserResource.java
+
+ │    ├── UserDummyResource.java
+
+ ├── services/exceptions/
+
+ │    ├── ResourceNotFoundException.java
  
  ├── services/
  
