@@ -57,6 +57,8 @@ src/main/java/authuser/
  ├── config/
 
  │    ├── SwaggerConfig.java
+ 
+ │
 
  ├── dtos/
  
@@ -65,42 +67,54 @@ src/main/java/authuser/
  │    ├── UserDTODummyJson.java
 
  │    ├── UserResponseDTODummy.java
+  
+ │
  
-
  ├── entities/
  
  │    ├── User.java
  
  │    ├── UserDummyJson.java
 
-
+ │
+ 
  ├── repositories/
  
  │    ├── UserRepository.java
  
  │    ├── DummyJsonClient.java 
-
+  
+ │
+ 
  ├── resources/exceptions/
 
  │    ├── StandardError.java
 
  │    ├── ResourceExceptionHandler.java
 
+ │
+ 
  ├── resources/
  
  │    ├── UserResource.java
 
  │    ├── UserDummyResource.java
-
+  
+ │
+ 
  ├── services/exceptions/
 
  │    ├── ResourceNotFoundException.java
+
+ │
  
  ├── services/
  
  │    ├── UserService.java
  
  │    ├── UserServiceDummyJson.java
+
+ │
  
  ├── services/impl/
 
